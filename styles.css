@@ -13,3 +13,17 @@ body {
 	height: 300px;
 	margin: auto;
 }
+
+.postcard-header {
+	display: flex;
+	align-items: center;
+}
+
+.image-header {
+	height: 50px;
+	width: 50px;
+}
+
+.title-header {
+	flex: 1 1 90%;
+}

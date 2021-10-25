@@ -3,14 +3,13 @@ body {
 }
 
 * {
-	border: 1px dashed red;
 	min-height: 10px;
 }
 
 .postcard {
 	background: white;
-	width: 400px;
-	height: 300px;
+	width: 500px;
+	height: 400px;
 	margin: auto;
 }
 
@@ -26,4 +25,61 @@ body {
 
 .title-header {
 	flex: 1 1 90%;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left {
+	width: 50%;
+	padding: 5px;
+}
+
+.body-left p {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+}
+
+.body-right {
+	width: 50%;
+	padding: 5px;
+}
+
+.name {
+	padding-top: 20px;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 2px solid lightgray;
+}
+
+.email {
+	padding-top: 20px;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 2px solid lightgray;
+}
+
+.comment {
+	padding-top: 20px;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 2px solid lightgray;
+}
+
+.secondp {
+	margin-top: 10px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+.btnfooter {
+	text-align: center;
+	background-color: darkgray;
+	padding: 10px;
 }
